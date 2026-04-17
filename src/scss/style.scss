@@ -58,10 +58,10 @@ body {
 
 @include color-mode(dark) {
   body {
-    background-color: var(--cui-dark-bg-subtle);
+    background-color: #222;
   }
 
   .footer {
-    --cui-footer-bg: var(--cui-body-bg);
+    --cui-footer-bg: #333;
   }
 }
